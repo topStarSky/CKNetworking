@@ -61,12 +61,12 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7AF8FAEC76A4C14E72FCF72E /* Pods-CKNetworking_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKNetworking_Tests.release.xcconfig"; path = "Target Support Files/Pods-CKNetworking_Tests/Pods-CKNetworking_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		97A329AD38968246D6A21BC3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		97A329AD38968246D6A21BC3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9D682B83026DB2F00B37405B /* Pods_CKNetworking_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CKNetworking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E4169937BBC690343FE062F /* CKNetworking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CKNetworking.podspec; path = ../CKNetworking.podspec; sourceTree = "<group>"; };
+		9E4169937BBC690343FE062F /* CKNetworking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CKNetworking.podspec; path = ../CKNetworking.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CE763A33BCE9F7EA2CA9AF0B /* Pods-CKNetworking_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKNetworking_Example.debug.xcconfig"; path = "Target Support Files/Pods-CKNetworking_Example/Pods-CKNetworking_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E2696D9CD89BF73515E300DF /* Pods-CKNetworking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CKNetworking_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CKNetworking_Tests/Pods-CKNetworking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E62A14750F5DE2FF07B31C32 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E62A14750F5DE2FF07B31C32 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				E2696D9CD89BF73515E300DF /* Pods-CKNetworking_Tests.debug.xcconfig */,
 				7AF8FAEC76A4C14E72FCF72E /* Pods-CKNetworking_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

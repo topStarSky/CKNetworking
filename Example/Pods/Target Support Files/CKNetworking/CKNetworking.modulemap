@@ -1,0 +1,6 @@
+framework module CKNetworking {
+  umbrella header "CKNetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}
